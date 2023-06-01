@@ -13,6 +13,8 @@
 		957FAFBC2A28F13F000929EA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAFBB2A28F13F000929EA /* HomeView.swift */; };
 		957FAFBE2A28F1B1000929EA /* UberMapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAFBD2A28F1B1000929EA /* UberMapViewRepresentable.swift */; };
 		957FAFC02A28F331000929EA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAFBF2A28F331000929EA /* LocationManager.swift */; };
+		957FAFC62A28F93A000929EA /* LocationSearchActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAFC52A28F93A000929EA /* LocationSearchActivationView.swift */; };
+		957FAFC92A28FA99000929EA /* MapViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAFC82A28FA99000929EA /* MapViewActionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		957FAFBB2A28F13F000929EA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		957FAFBD2A28F1B1000929EA /* UberMapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberMapViewRepresentable.swift; sourceTree = "<group>"; };
 		957FAFBF2A28F331000929EA /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		957FAFC52A28F93A000929EA /* LocationSearchActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchActivationView.swift; sourceTree = "<group>"; };
+		957FAFC82A28FA99000929EA /* MapViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewActionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,8 @@
 		957FAFB62A28F0DF000929EA /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				957FAFBA2A28F122000929EA /* View */,
-				957FAFB82A28F107000929EA /* ViewModel */,
+				957FAFC22A28F90E000929EA /* LocationSearch */,
+				957FAFC12A28F8CA000929EA /* Home */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -120,13 +124,47 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		957FAFBA2A28F122000929EA /* View */ = {
+		957FAFBA2A28F122000929EA /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				957FAFBB2A28F13F000929EA /* HomeView.swift */,
 				957FAFBD2A28F1B1000929EA /* UberMapViewRepresentable.swift */,
+				957FAFC82A28FA99000929EA /* MapViewActionButton.swift */,
 			);
-			path = View;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		957FAFC12A28F8CA000929EA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				957FAFBA2A28F122000929EA /* Views */,
+				957FAFB82A28F107000929EA /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		957FAFC22A28F90E000929EA /* LocationSearch */ = {
+			isa = PBXGroup;
+			children = (
+				957FAFC42A28F923000929EA /* ViewModel */,
+				957FAFC32A28F91A000929EA /* Views */,
+			);
+			path = LocationSearch;
+			sourceTree = "<group>";
+		};
+		957FAFC32A28F91A000929EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				957FAFC52A28F93A000929EA /* LocationSearchActivationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		957FAFC42A28F923000929EA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +238,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				957FAFC02A28F331000929EA /* LocationManager.swift in Sources */,
+				957FAFC92A28FA99000929EA /* MapViewActionButton.swift in Sources */,
 				957FAFA52A28F026000929EA /* UberSwiftUIApp.swift in Sources */,
 				957FAFBE2A28F1B1000929EA /* UberMapViewRepresentable.swift in Sources */,
 				957FAFBC2A28F13F000929EA /* HomeView.swift in Sources */,
+				957FAFC62A28F93A000929EA /* LocationSearchActivationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
