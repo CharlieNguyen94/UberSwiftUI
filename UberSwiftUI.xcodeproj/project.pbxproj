@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9572AF1B2A29361E004432B9 /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9572AF1A2A29361E004432B9 /* LocationSearchViewModel.swift */; };
 		957FAFA52A28F026000929EA /* UberSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957FAFA42A28F026000929EA /* UberSwiftUIApp.swift */; };
 		957FAFA92A28F028000929EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957FAFA82A28F028000929EA /* Assets.xcassets */; };
 		957FAFAC2A28F028000929EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957FAFAB2A28F028000929EA /* Preview Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9572AF1A2A29361E004432B9 /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
 		957FAFA12A28F026000929EA /* UberSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		957FAFA42A28F026000929EA /* UberSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberSwiftUIApp.swift; sourceTree = "<group>"; };
 		957FAFA82A28F028000929EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 		957FAFC42A28F923000929EA /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9572AF1A2A29361E004432B9 /* LocationSearchViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9572AF1B2A29361E004432B9 /* LocationSearchViewModel.swift in Sources */,
 				957FAFCB2A28FBEC000929EA /* LocationSearchView.swift in Sources */,
 				957FAFC02A28F331000929EA /* LocationManager.swift in Sources */,
 				957FAFC92A28FA99000929EA /* MapViewActionButton.swift in Sources */,
