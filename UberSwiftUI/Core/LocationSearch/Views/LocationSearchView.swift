@@ -14,7 +14,7 @@ struct LocationSearchView: View {
 
 			locationsListView
 		}
-		.background(.white)
+		.background(Color.theme.backgroundColor)
 	}
 
 	var headerView: some View {
